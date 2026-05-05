@@ -20,9 +20,21 @@ def main() -> None:
     key, iv, cipher_bytes = encrypt_des_cbc(plain)
     overall = build_packet(key, iv, cipher_bytes)
 
-    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-        s.connect((SERVER_IP, SERVER_PORT))
-        s.sendall(overall)
+    mode = os.getenv('TEST_MODE', '')
+
+if mode == 'truncate':
+    overall = overall[:10]  # gửi thiếu dữ liệu
+elif mode == 'bad_length':
+    overall = overall[:-5]  # phá header
+elif mode == 'bad_padding':
+    cipher_bytes = cipher_bytes[:-1] + b'\x00'
+    overall = build_packet(key, iv, cipher_bytes)
+    try:
+        with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+            s.connect((SERVER_IP, SERVER_PORT))
+            s.sendall(overall)
+    except Exception as e:
+        print(f"[!] Lỗi gửi: {e}")
 
     lines = [
         "[+] Đã gửi bản mã.",
@@ -34,7 +46,7 @@ def main() -> None:
         print(line)
 
     if LOG_FILE:
-        with open(LOG_FILE, 'w', encoding='utf-8') as f:
+        with open(LOG_FILE, 'a', encoding='utf-8') as f:
             f.write('\n'.join(lines) + '\n')
 
 

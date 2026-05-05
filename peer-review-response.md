@@ -1,7 +1,7 @@
 # Peer Review Response
 
 ## Thông tin nhóm
-- Thành viên 1: TODO_STUDENT
+- Thành viên 1: Đinh Dương Phong - 1871020451
 - Thành viên 2: TODO_STUDENT
 
 ## Thành viên 1 góp ý cho thành viên 2
