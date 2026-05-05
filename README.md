@@ -16,14 +16,14 @@ Bài lab bám theo luồng hệ thống trong file hướng dẫn: Sender tạo 
 - **Thành viên 2**: TODO_MEMBER_2 - MSSV: TODO_MEMBER_2_ID
 
 ## Task division
-- **Thành viên 1 phụ trách chính**: TODO_ROLE_MEMBER_1
-- **Thành viên 2 phụ trách chính**: TODO_ROLE_MEMBER_2
-- **Phần làm chung**: TODO_SHARED_WORK
+- **Thành viên 1 phụ trách chính**:  Receiver (nhận dữ liệu, parse header, giải mã DES-CBC, xử lý lỗi và ghi log)
+- **Thành viên 2 phụ trách chính**: Sender (mã hóa DES-CBC, tạo packet, gửi dữ liệu qua socket, log phía gửi)
+- **Phần làm chung**:Thiết kế cấu trúc gói tin, viết test case, xây dựng threat model và hoàn thiện README
 
 ## Demo roles
 - **Bạn nào demo Sender / gói tin / log gửi**: TODO_DEMO_ROLE_1
-- **Bạn nào demo Receiver / giải mã / log nhận**: TODO_DEMO_ROLE_2
-- **Cả hai cùng trả lời threat model và ethics**: TODO_DEMO_ROLE_SHARED
+- **Bạn nào demo Receiver / giải mã / log nhận**: Đinh Dương Phong
+- **Cả hai cùng trả lời threat model và ethics**: cả hai
 
 ## Mục tiêu học tập
 - Hiểu luồng hoạt động của hệ thống Sender/Receiver qua TCP socket.
