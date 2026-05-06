@@ -2,7 +2,7 @@
 
 ## Thông tin nhóm
 - Thành viên 1: Đinh Dương Phong - 187102
-- Thành viên 2: TODO_STUDENT
+- Thành viên 2: Trần Đình Đức Toàn -1871020574
 
 ## Mục tiêu
 Bài lab nhằm xây dựng một hệ thống truyền dữ liệu qua mạng sử dụng socket TCP kết hợp với mã hóa DES-CBC. Sinh viên cần hiểu được luồng hoạt động giữa Sender và Receiver, bao gồm việc tạo khóa, mã hóa dữ liệu, gửi gói tin và giải mã ở phía nhận. Ngoài ra, bài lab giúp rèn luyện kỹ năng xử lý lỗi, kiểm thử hệ thống và phân tích các rủi ro bảo mật trong quá trình truyền dữ liệu. Thông qua đó, sinh viên nhận thức rõ hơn về các vấn đề an toàn thông tin trong hệ thống thực tế.
