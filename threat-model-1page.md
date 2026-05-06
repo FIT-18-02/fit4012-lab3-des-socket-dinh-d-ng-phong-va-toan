@@ -2,7 +2,7 @@
 
 ## Thông tin nhóm
 - Thành viên 1: Đinh Dương Phong - 1871020451
-- Thành viên 2: TODO_STUDENT
+- Thành viên 2: Trần Đình Đức Toàn - 1871020574
 
 ## Assets
 Các tài sản cần bảo vệ trong hệ thống gồm:
