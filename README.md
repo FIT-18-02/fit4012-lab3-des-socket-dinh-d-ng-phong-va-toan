@@ -13,7 +13,7 @@ Bài lab bám theo luồng hệ thống trong file hướng dẫn: Sender tạo 
 
 ## Team members
 - **Thành viên 1**: Đinh Dương Phong - MSSV: 1871020451
-- **Thành viên 2**: TODO_MEMBER_2 - MSSV: TODO_MEMBER_2_ID
+- **Thành viên 2**: Trần Đình Đức Toàn - MSV:1871020574
 
 ## Task division
 - **Thành viên 1 phụ trách chính**:  Receiver (nhận dữ liệu, parse header, giải mã DES-CBC, xử lý lỗi và ghi log)
