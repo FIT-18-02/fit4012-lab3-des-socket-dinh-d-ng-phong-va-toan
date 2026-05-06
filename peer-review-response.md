@@ -2,7 +2,7 @@
 
 ## Thông tin nhóm
 - Thành viên 1: Đinh Dương Phong - 1871020451
-- Thành viên 2: TODO_STUDENT
+- Thành viên 2: Trần Đình Đức Toàn -1871020574
 
 ## Thành viên 1 góp ý cho thành viên 2
 TODO_STUDENT: Góp ý ngắn gọn về phần việc, chất lượng code, test, hoặc tài liệu.
