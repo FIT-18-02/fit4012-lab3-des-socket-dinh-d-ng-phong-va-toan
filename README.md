@@ -21,7 +21,7 @@ Bài lab bám theo luồng hệ thống trong file hướng dẫn: Sender tạo 
 - **Phần làm chung**:Thiết kế cấu trúc gói tin, viết test case, xây dựng threat model và hoàn thiện README
 
 ## Demo roles
-- **Bạn nào demo Sender / gói tin / log gửi**: TODO_DEMO_ROLE_1
+- **Bạn nào demo Sender / gói tin / log gửi**: Trần Đình Đức Toàn
 - **Bạn nào demo Receiver / giải mã / log nhận**: Đinh Dương Phong
 - **Cả hai cùng trả lời threat model và ethics**: cả hai
 
